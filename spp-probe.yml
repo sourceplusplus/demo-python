@@ -1,7 +1,6 @@
-spp-probe:
-  host: "127.0.0.1"
-  grpc_port: 11800
-  rest_port: 12800
+spp:
+  platform_host: "localhost"
+  platform_port: 12800
   ssl_enabled: false
 skywalking:
   logging:
