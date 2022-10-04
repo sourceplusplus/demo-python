@@ -12,7 +12,7 @@ class AddBreakpoint:
     @staticmethod
     def simple_breakpoint():
         """
-        Execute the "Add Breakpoint" command with your cursor on line 16 to set up a non-breaking breakpoint
+        Execute the "Add Breakpoint" command with your cursor on line 30 to set up a non-breaking breakpoint
         before the execution of that line. This will open the breakpoint configuration inlay. Hit enter to
         make the breakpoint non-conditional. Hit enter again to make the breakpoint single-use and create
         the breakpoint.
