@@ -25,6 +25,6 @@ class AddBreakpoint:
         """
 
         import random
-        random_number = random.random() * 100
+        random_number = round(random.random() * 100)
         is_even = random_number % 2 == 0
         print(f"{random_number} and is " + ("even" if is_even else "odd"))
