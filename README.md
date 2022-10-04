@@ -7,9 +7,7 @@
 
 ## What is this?
 
-This project holds Python-based feature demonstrations for [Source++](https://github.com/sourceplusplus/sourceplusplus),
-the open-source live coding platform. These demonstrations are meant to be used as a reference for how to use Source++
-in your own projects.
+This project holds Python-based feature demonstrations for [Source++](https://github.com/sourceplusplus/sourceplusplus), the open-source programmable continuous feedback platform. These demonstrations are meant to be used as a reference for how to use Source++ in your own projects.
 
 ## How to use?
 
