@@ -1,0 +1,10 @@
+spp-probe:
+  host: "127.0.0.1"
+  grpc_port: 11800
+  rest_port: 12800
+  ssl_enabled: false
+skywalking:
+  logging:
+    level: "WARN"
+  agent:
+    service_name: "demo-python"
