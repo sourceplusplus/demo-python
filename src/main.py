@@ -8,6 +8,7 @@ SourcePlusPlus().attach()
 def trigger_add_breakpoint():
     import command.AddBreakpoint
     command.AddBreakpoint.AddBreakpoint.simple_breakpoint()
+    command.AddBreakpoint.AddBreakpoint.breakpoint_with_redacted_data()
 
 
 def execute_demos():

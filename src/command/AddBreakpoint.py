@@ -28,3 +28,16 @@ class AddBreakpoint:
         random_number = round(random.random() * 100)
         is_even = random_number % 2 == 0
         print(f"{random_number} and is " + ("even" if is_even else "odd"))
+
+    @staticmethod
+    def breakpoint_with_redacted_data():
+        """
+         The "Add Breakpoint" command support PII (Personally Identifiable Information) redaction.
+         This allows you to safely add breakpoints to code with sensitive data.
+
+         Try adding a breakpoint to output any of the variables below.
+        """
+
+        password = "password123"  # redacted via variable identifier
+        ssn = "123-45-6789"  # redacted via regex pattern
+        print(f"password: {password}, ssn: {ssn}")
